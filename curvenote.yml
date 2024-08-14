@@ -1,0 +1,32 @@
+version: 1
+project:
+  title: Lennard Jones Surface Energy
+  id: e430114f-1fc2-41b9-bb58-f850c4b79e4c
+  description: Lennard-Jones surface energy example for the 2024 Molecular Foundry user meeting to showcase thebe-lite shareability
+  jupyter:
+    lite: true
+  authors:
+    - name: Georgios Varnavides
+      corresponding: true
+      email: gvarnavides@berkeley.edu
+      orcid: 0000-0001-8338-3323
+      affiliations:
+        - id: miller
+          institution: University of California, Berkeley
+          department: Miller Institute for Basic Research in Science
+          address: 468 Donner Lab, Berkeley, CA, USA, 94720
+          ror: 01an7q238
+  open_access: true 
+  github: https://github.com/gvarnavi/curvenote-thebelite-example
+  requirements:
+    - 'environment.yml'
+  resources:
+    - 'notebooks/**/*'
+  exports:
+    - format: meca
+  exclude:
+    - README.md
+site:
+  template: book-theme
+  domains:
+    - gvarnavides.curve.space
